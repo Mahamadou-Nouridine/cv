@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    height: 1050px
+}
+#moi{
+    border-radius: 50%;
+}
+figure{
+    display: flex;
+    margin-left: 5px;
+}
+figcaption{
+    padding-top: 10px;
+    word-wrap: break-word;
+}
+#points{
+    display: flex;
+    width: 100%;
+}
+#expérience, #stage, #formation, #profil
+{
+    margin-left: 20px;
+}
+h1{
+    font-size: 20px;
+}
+h2{
+    font-size: 15px;
+}
+#moment{
+    font-size: 10px;
+    color: gray;
+}
+#profil{
+    width: 100%;
+}
+
+@media screen and(max-width:720px)
+{
+    li{
+        margin-left: 5px;
+    }
+
+}
+#section2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 500px;
+    max-width: 550px;
+    border-bottom-right-radius:  8%;
+    border-top-right-radius: 8%;
+    background-color: rgba(13, 40, 146, 0.11);
+}
+#section1
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 350px;
+    flex-basis: 420px;
+    background-color:rgba(63, 88, 177, 0.459);
+    border-bottom-left-radius: 8%;
+    border-top-left-radius: 8%;
+}
